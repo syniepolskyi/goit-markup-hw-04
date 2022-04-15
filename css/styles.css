@@ -81,8 +81,8 @@ a.current {
 
 .header {
     border-bottom: 1px solid transparent;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-container {
@@ -304,9 +304,11 @@ a.current {
 
 /* icon advantage */
 
-.icon-adv {
-    padding: 25px 100px 25px 100px;
-    width: 100%;
+.icon-adv-container {
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
